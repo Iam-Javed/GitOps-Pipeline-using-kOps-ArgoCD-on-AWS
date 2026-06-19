@@ -1,0 +1,5 @@
+replicaCount: 2
+
+image:
+  repository: misterj25/travel-website
+  tag: latest

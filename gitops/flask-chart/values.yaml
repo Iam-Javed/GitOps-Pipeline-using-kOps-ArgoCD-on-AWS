@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: misterj25/travel-website
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
+
+containerPort: 80
